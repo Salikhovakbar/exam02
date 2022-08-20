@@ -1,0 +1,267 @@
+@media only screen and (max-width: 768px){
+ body{
+    padding:0px 40px;
+ }
+    .hero_text_part{
+    margin: 0;
+    margin: 80px 0px 0px 0px;
+ }
+ h1{
+    font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 125%;
+/* or 55px */
+/* main font */
+color: #363738;
+ }
+ .hero_text{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+padding-top: 20px;
+ }
+    .hero_inside_box{
+    width: 177px;
+    height: 743px;
+
+   }
+    .main_photo{
+    width: 690px;
+    height: 314px;
+    top: 430px;
+    right: 15px;
+    }
+.hero_container{
+    height: 600px;
+    width: 690px;
+}
+    .facility_box::after{
+display: none;
+    }
+    .hero_facilities_box{
+        display: block;
+        height: 0;
+        width: 0;
+        position: static;
+    }
+    .facility_box:first-child{
+        margin-top: 41px;
+    }
+    .facility_box{
+        width: 768px;
+        height: 150px;
+        display: flex;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+        border-radius: 20px;
+        margin-top: 16px;
+    }
+    .icon_circle{
+        display: flex;
+        align-items: center;
+    }
+    .icon{
+        width: 92px;
+        height: 92px;
+    }
+    .facility_name{
+        font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 135%;
+    }
+    .lorem_explaining{
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+max-width: 394px;
+    }
+    .quiz{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        /* or 55px */
+        /* main font */
+        
+        color: #363738;
+        
+    }
+    .result{
+        display: none;
+    }
+    .box_main_part{
+        position: relative;
+        display: flex;
+        width: 700px;
+        height: 383px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .truck_main_picture{
+        max-width: 100%;
+        height: 383px;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        position: absolute
+    }
+    .main_line{
+        position: absolute;
+        width: 521px;
+        height: 383px;
+        left: 90px;
+        transform: skew(-15deg);
+
+    }
+    .main_topic{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        /* or 55px */
+        
+        
+        /* white */
+        
+        color: #FFFFFF;        
+        margin: 0;
+        margin: 130px 0px 0px 39px;
+
+}
+.main_topic_phone{
+    font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+/* or 35px */
+/* main font */
+color: #363738;
+display: none;
+}
+.main_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon_lorem{
+    width: 88px;
+    height: 88px;
+}
+.main_icon:first-child{
+    margin-top: 48px;
+}
+.main_icon{
+    margin-top: 48px;
+}
+.process_box{
+    display: grid;
+    grid-template-columns: 690px;
+    grid-template-rows: repeat(3, 422px);
+    grid-gap: 30px;
+    margin-top: 57px;
+}
+.photo_activity{
+    width: 690px;
+    height: 247px;
+}
+.lorem_text_process{
+    max-width: 530px;
+}
+.photo_condition{
+    display: none;
+}
+.facility_conditon{
+    display: grid;
+    grid-template-columns: 641px ;
+    grid-template-rows: repeat(3, 245px);
+    grid-gap: 24px;
+    margin-top: 48px;
+ }
+ .box_attractive-of-clients{
+    height: 971px;
+    width: 768px;
+    display: block;
+ }
+ .site{
+    width: 687px;
+    height: 695px;
+    margin: 0 39px;
+ }
+ .choice-of-pictures{
+    display: none;
+ }
+ .process_facilty{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 125%;
+    /* or 55px */
+    
+    
+    /* main font */
+    max-width: 687px;
+    color: #363738;
+ }
+ .companies_sponsors{
+    display: grid;
+    grid-template-columns: repeat(2, 185px);
+    grid-template-rows: 176px 176px ;
+    margin-left: 80px;
+ }
+ .company:nth-child(2)::after{
+    display: none;
+ }
+ .company:nth-child(4)::after{
+    display: none;
+ }
+ .company:nth-child(6)::after{
+    display: none;
+ }
+ .company:last-child:after{
+    display: none;
+ }
+ .members{
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(2, 289px);
+ }
+ .member_fivth{
+    display: none;
+ }
+ .member_sixth{
+    display: none;
+ }
+ .inside_box{
+    display: block;
+ }
+ .picture_member{
+    width: 100px;
+    height: 100px;
+ }
+ .ordinary_box{
+    height: 289px;
+    width: 30px;
+    background: #0B7572;
+    background-color: $main-color-two;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;  
+ }
+ .play{
+    display: flex;
+ align-items: center;
+    justify-content: center;
+}
+.video_part{
+    width: 690px;
+    height: 433px;
+}
+.video{
+    width: 690px;
+    height: 433px;
+    top: 162px;
+}
+}
